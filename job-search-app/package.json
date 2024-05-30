@@ -1,0 +1,37 @@
+{
+  "name": "job-search-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx && stylelint '**/*.{css,scss,tsx,ts}'",
+    "format": "prettier --write . && eslint --fix . && stylelint --fix '**/*.{css,scss,tsx,ts}'",
+    "lint:styles": "stylelint '**/*.{css,scss,tsx,ts}'"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.3.2",
+    "stylelint": "^16.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-prettier": "^1.2.0",
+    "typescript": "latest"
+  }
+}
